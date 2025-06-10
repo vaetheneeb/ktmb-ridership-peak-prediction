@@ -50,6 +50,8 @@ To improve model interpretability and performance:
 
 # Evaluation
 The Logistic Regression model achieved approximately **76% accuracy**, balancing performance and interpretability. Classification reports and model comparisons were used to analyze the strengths and limitations of each approach. The model demonstrated strong generalization, particularly on the dominant non-peak class while maintaining reasonable detection of peak periods.
+
+
 ![image](https://github.com/user-attachments/assets/632c5e05-dd65-4fdb-b4c7-d1793a896b66)
 
 # AutoML Benchmarking with Auto-sklearn
