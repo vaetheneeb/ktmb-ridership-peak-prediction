@@ -35,13 +35,13 @@ Five supervised learning models were trained and evaluated:
 Additionally, **Auto-sklearn** and **Autogluon** was used to compare results with automated ML pipelines.
 
 # My Role
-• Project Management: Oversaw task division and progress tracking to ensure an organized and timely workflow within the team.
+• Project Management – Organizing workflow, dividing tasks, and tracking progress so everything stayed on schedule. It helped keep the team aligned and made sure we didn’t scramble at the last minute.
 
-• Model Development: Trained and evaluated a Logistic Regression model, carefully selecting encoding strategies to strike a balance between performance and interpretability
+• Model Development – Training and evaluating a Logistic Regression model. I spent time experimenting with different encoding techniques to get the best balance between performance and interpretability. In particular, using target encoding for station pairs made a big difference in helping the model learn real patterns without overfitting. Even though Logistic Regression is linear by nature, with properly engineered features and hyperparameter tuning, it held up surprisingly well, achieving 76% accuracy with respectable performance on both classes.
 
-• Model Benchmarking: Integrated and configured Auto-sklearn to compare the performance of five manually tuned models against automated pipelines.
+• Model Benchmarking – Set up and configured Auto-sklearn to benchmark our manually trained models against automated pipelines. It was super interesting to see how our work compared to what AutoML could produce (spoiler: it did pretty well, but we held our own!).
 
-• Presentation & Visual Design: Designed the final presentation slides with a focus on clarity, structure, and effective storytelling to communicate our findings to both technical and non-technical audiences. I opted for a clean, dual-color palette with minimal graphics to highlight the data and results—keeping in mind the 5-minute presentation limit and academic context of the assignment.
+• Presentation & Visual Design – Designed the final slide deck to clearly tell the story of our project from start to finish. I went with a clean, dual-color layout and kept the visuals minimal—partly because of the 5-minute time limit, and partly to keep the focus on the data and results. It turned out simple, structured, and effective for both technical and non-technical audiences.
 
 # Feature Engineering
 To improve model interpretability and performance:
@@ -50,6 +50,7 @@ To improve model interpretability and performance:
 
 # Evaluation
 The Logistic Regression model achieved approximately **76% accuracy**, balancing performance and interpretability. Classification reports and model comparisons were used to analyze the strengths and limitations of each approach. The model demonstrated strong generalization, particularly on the dominant non-peak class while maintaining reasonable detection of peak periods.
+![image](https://github.com/user-attachments/assets/632c5e05-dd65-4fdb-b4c7-d1793a896b66)
 
 # AutoML Benchmarking with Auto-sklearn
 To evaluate the performance of our manually tuned models, we used Auto-sklearn, an automated machine learning (AutoML) framework that automatically builds model ensembles and optimizes hyperparameters.
