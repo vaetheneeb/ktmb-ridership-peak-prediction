@@ -9,6 +9,7 @@ To develop a predictive model that determines whether a train ride occurred duri
 - **Google Colab**
 - **Auto-sklearn** (for automated model comparison)
 - **WSL Ubuntu via VSCode**
+- **Canva** (final presentation slides)
 
 # Dataset
 The data was obtained from [data.gov.my](https://data.gov.my), specifically the **Hourly Origin-Destination Ridership** dataset for KTMB Komuter trains. After through data cleaning & preprocessing, features used are:
@@ -35,9 +36,12 @@ Additionally, **Auto-sklearn** and **Autogluon** was used to compare results wit
 
 # My Role
 • Project Management: Oversaw task division and progress tracking to ensure an organized and timely workflow within the team.
+
 • Model Development: Trained and evaluated a Logistic Regression model, carefully selecting encoding strategies to strike a balance between performance and interpretability
+
 • Model Benchmarking: Integrated and configured Auto-sklearn to compare the performance of five manually tuned models against automated pipelines.
-• Presentation & Visual Design: Designed the final presentation slides, focusing on clarity, structure, and storytelling to communicate our findings to both technical and non-technical audiences. Went for a simple, dual colour palette with minimal graphics to 
+
+• Presentation & Visual Design: Designed the final presentation slides with a focus on clarity, structure, and effective storytelling to communicate our findings to both technical and non-technical audiences. I opted for a clean, dual-color palette with minimal graphics to highlight the data and results—keeping in mind the 5-minute presentation limit and academic context of the assignment.
 
 # Feature Engineering
 To improve model interpretability and performance:
