@@ -80,7 +80,7 @@ Auto-sklearn selected an ensemble **composed entirely of Random Forest classifie
 
 📌 Insights
 Auto-sklearn consistently **favored Random Forests**, likely due to their robustness on tabular data and ability to handle mixed feature types and imbalanced classes.
-The **best individual model achieved 0.84 accuracy**, **similar** to the performance of our manually trained Random Forest model, which had an accuracy of **84.79%**.
+The **best individual model achieved 0.84 accuracy**, **similar** to the performance of our manually trained Random Forest model, which had an accuracy of **84.37%**.
 Ensemble weighting suggests that multiple diverse configurations contributed meaningfully to the final prediction, with one high-performing model carrying most of the weight.
 
 # Presentation
