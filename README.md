@@ -4,13 +4,13 @@ This project applies supervised machine learning techniques to classify KTMB Kom
 # Objective
 To develop a predictive model that determines whether a train ride occurred during peak hours based on temporal and location-based features. The goal is to support data-driven decisions in transport scheduling and passenger flow optimization. From a syllabus perspective, the objective was to implement and develop at least five models from the various machine learning methods we studied throughout the semester, and to compare their effectiveness as well as understand the reasoning behind their performance when applied to the same problem.
 
-# 🛠️ Tools & Technologies
+# Tools & Technologies
 - **Python** (pandas, scikit-learn, matplotlib)
 - **Google Colab**
 - **Auto-sklearn** (for automated model comparison)
 - **WSL Ubuntu via VSCode**
 
-# 🔍 Dataset
+# Dataset
 The data was obtained from [data.gov.my](https://data.gov.my), specifically the **Hourly Origin-Destination Ridership** dataset for KTMB Komuter trains. After through data cleaning & preprocessing, features used are:
 - hour
 - day_of_week
@@ -23,7 +23,7 @@ The data was obtained from [data.gov.my](https://data.gov.my), specifically the 
 - origin_encoded
 - destination_encoded
 
-# 📈 Models Trained
+# Models Trained
 Five supervised learning models were trained and evaluated:
 - Logistic Regression
 - Decision Tree
