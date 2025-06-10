@@ -68,13 +68,15 @@ Best validation accuracy: 0.84
 🏆 Top Models in the Final Ensemble
 Auto-sklearn selected an ensemble **composed entirely of Random Forest classifiers** with varying configurations. The table below shows the top-ranked models based on their validation accuracy and their contribution to the ensemble:
 
-Rank	Validation Accuracy	Ensemble Weight	Notable Hyperparameters
-1	~0.82	0.04	max_features=3
-2	~0.79	0.06	max_features=7, min_samples_leaf=2, min_samples_split=20
-3	~0.80	0.04	criterion='entropy', max_features=1, min_samples_leaf=5
-4	~0.83	0.08	bootstrap=False, max_features=10, min_samples_leaf=6
-5	~0.82	0.14	criterion='entropy', max_features=2, class_weight=balanced
-6	0.84 (Best Overall)	0.50	criterion='entropy', max_features=8, min_samples_leaf=7
+| Rank | Validation Accuracy      | Ensemble Weight | Notable Hyperparameters                                               |
+|------|--------------------------|------------------|------------------------------------------------------------------------|
+| 1    | ~0.82                   | 0.04             | `max_features=3`                                                      |
+| 2    | ~0.79                   | 0.06             | `max_features=7`, `min_samples_leaf=2`, `min_samples_split=20`        |
+| 3    | ~0.80                   | 0.04             | `criterion='entropy'`, `max_features=1`, `min_samples_leaf=5`         |
+| 4    | ~0.83                   | 0.08             | `bootstrap=False`, `max_features=10`, `min_samples_leaf=6`            |
+| 5    | ~0.82                   | 0.14             | `criterion='entropy'`, `max_features=2`, `class_weight='balanced'`    |
+| 6    | **0.84 (Best Overall)** | **0.50**         | `criterion='entropy'`, `max_features=8`, `min_samples_leaf=7`         |
+
 
 📌 Insights
 Auto-sklearn consistently **favored Random Forests**, likely due to their robustness on tabular data and ability to handle mixed feature types and imbalanced classes.
